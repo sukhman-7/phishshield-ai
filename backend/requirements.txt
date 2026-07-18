@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+google-genai
+playwright
+python-multipart
+pytesseract
+pyzbar
+opencv-python-headless
+sqlalchemy
+requests
