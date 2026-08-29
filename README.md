@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://img.icons8.com/color/128/000000/security-checked--v1.png" alt="PhishShield Logo" width="100"/>
 
-  # 🛡️ PhishShield AI
+  # 🛡️ PhishShield 
   
   **An Advanced, AI-Powered Cybersecurity Engine for Phishing Detection & Threat Analysis**
 
