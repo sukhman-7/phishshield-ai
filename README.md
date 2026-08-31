@@ -10,7 +10,7 @@
   ---
 </div>
 
-PhishShield AI is an enterprise-grade cybersecurity application built to preemptively detect, analyze, and neutralize phishing attempts. By orchestrating **Google Gemini 2.5 Flash**, **VirusTotal Threat Intelligence**, **Playwright Sandboxing**, and **Computer Vision**, PhishShield acts as a comprehensive SOC (Security Operations Center) analyst automated in software.
+PhishShield is an enterprise-grade cybersecurity application built to preemptively detect, analyze, and neutralize phishing attempts. By orchestrating **Google Gemini 2.5 Flash**, **VirusTotal Threat Intelligence**, **Playwright Sandboxing**, and **Computer Vision**, PhishShield acts as a comprehensive SOC (Security Operations Center) analyst automated in software.
 
 ## 📑 Table of Contents
 - [✨ Core Capabilities](#-core-capabilities)
