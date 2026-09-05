@@ -278,12 +278,12 @@ async def scan_url_sandbox(request: UrlAnalysisRequest, db: Session = Depends(ge
             # Attach the wiretap before navigating
             page.on("request", handle_request)
             
-            # 3. Increase timeout to 30s and change wait behavior to 'commit'
-            # 'commit' means control is returned as soon as the main body HTML begins streaming
-            await page.goto(target_url, timeout=30000, wait_until="commit")
+            # 3. Increase timeout to 30s and change wait behavior to 'load'
+            # 'load' means control is returned after the load event is fired.
+            await page.goto(target_url, timeout=30000, wait_until="load")
             
-            # Brief pause to let the page adjust visually before snapping the shot
-            await page.wait_for_timeout(2000) 
+            # Wait for 10 seconds to let the page adjust visually and fully load before snapping the shot
+            await page.wait_for_timeout(10000) 
             
             screenshot_bytes = await page.screenshot()
             screenshot_b64 = base64.b64encode(screenshot_bytes).decode('utf-8')
